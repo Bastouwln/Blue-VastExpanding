@@ -1,47 +1,58 @@
-*{
-	padding:0;
-	margin:0;
-	box-sizing:border-box;
-	
-	 }
-       body{
-	   margin::0;
-	   font-family:arial;
-	   background-color::white;
-	    }
-		 
-       
-		
-		header h1{
-		text-align:center;
-		color:white;
-		background:green;
-		padding:30px;
-		font-size:30px;
-		box-shadow: 5px 5px 5px 10px #004707c0;
-		 }
-		
-			 .row{
-			 padding: 0 135px;
-			 display:table;
-			  }
-			 section{
-			 float:left;
-			 width:100%;
-			  }
-			 
-			   .card{
-			   background-color:rgba(217, 217, 217, 1);
-			   padding:40px;
-			   margin-top:20px;
-			   border-radius:30px;
-			   width:950px;
-			   height:250px;
-			    }
-		
-			@media screen and (max-width: 768px){
-			section{
-			width:100%;
-			padding:0;
-			 }
-			 }
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #245;
+}
+
+header {
+  background-color: #456;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+.title{
+text-align:center;
+color:white;
+font-size:50px;
+ }
+.profile-image img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.product {
+  width: 300px;
+  margin: 10px;
+  border: 4px solid gray;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.caption {
+  margin-top: 10px;
+  color: white;
+}
+.legenda{
+color:white;
+font-size:15px;
+font-family:arial;
+ }
