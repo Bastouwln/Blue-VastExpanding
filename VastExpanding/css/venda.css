@@ -19,7 +19,7 @@
     border: 15cm;
     width: 100px;
     margin-top: 20px;
-    background: left / cover url('img/VastExpandingLogo 1.png');
+    background: left / cover url('logo.png');
     display: flex;
     height: 100px;
     font: bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script', fantasy;
@@ -38,7 +38,7 @@
     box-shadow: 5px 5px 5px 10px #004707c0;
 }
 .top-logo{
-    margin-right: auto;
+    margin-right: -40px;
     height: 50px;
     width: 80px;
     margin-left: 10px;
@@ -55,9 +55,10 @@
 }
 .header-bottom{
     display:flex;
-    margin-left: auto;
+    margin-left: -40px;
 }
 .perfil-img{
+    border: 15cm;
     height: 50px;
     width: 50px;
 }
@@ -89,13 +90,15 @@ margin-left: 130px;
 table{
     width: 100%;
     margin-top: 45px;
+    cursor: pointer;
 }
 table th {
-    border: 1px solid #ccc;
+    border: 5px solid #ccc;
     padding: 5px;
+    cursor: pointer;
 }
 td{
-    border: 1px solid #ccc;
+    border: 5px solid #ccc;
 }
 
    
