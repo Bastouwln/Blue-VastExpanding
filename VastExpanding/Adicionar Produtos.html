@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Exemplo de Formulário</title>
+<link rel="stylesheet" href="adicionarProdutos.css">
+</head>
+<body>
+    <header class="header">
+        <div>
+            <a href="./index.html">
+                <img class="top-logo" alt="logo" src="./logo.png">
+            </a>
+        </div>
+    </header>
+
+    <main>
+      <form action="">
+        <fieldset class="form-wrapper">
+          <div class="input-group">
+            <label for="input-name">Produto</label>
+            <input
+              id="input-name"
+              name="name"
+              type="name"
+              placeholder="Nome do Produto"
+              required
+            >
+          </div>
+  
+          <div class="input-group">
+            <label for="input-image">Imagem do produto</label>
+            <input
+              id="input-image"
+              name="image"
+              type="file"
+              accept="image/*"
+              required
+              >
+          
+          <div>
+            <input
+              id="input-logged-in"
+              name="logged-in"
+              type="checkbox"
+            >
+            <button type="submit" id="concluir-button">Concluir</button>
+          </fieldset>
+        </form>
+    </main>
+</body>
+</html>
