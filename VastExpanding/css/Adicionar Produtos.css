@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+header{
+  background-color: #00A811;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #303030;
+}
+
+form {
+  width: 600px;
+  height: 400px;
+  background-color: #f5e5c0;
+  border-radius: 8px;
+}
+
+.form-wrapper {
+  border: none;
+  padding: 16px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
