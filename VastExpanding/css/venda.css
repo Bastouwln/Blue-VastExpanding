@@ -28,7 +28,6 @@
 }
 
 
-
 .header{
     align-items: center;
     display:flex;
@@ -37,37 +36,50 @@
     height: 70px;
     box-shadow: 5px 5px 5px 10px #004707c0;
 }
+
+
 .top-logo{
     margin-right: -40px;
     height: 50px;
     width: 80px;
     margin-left: 10px;
 }
+
+
 .header-middle{
     margin:auto;
     text-align: center;
 }
+
+
 .header-middletext{
     margin-left: 450px;
     font-size: 30px;
     color:white;
     font-weight: bolder;
 }
+
+
 .header-bottom{
     display:flex;
     margin-left: -40px;
 }
+
+
 .perfil-img{
     border: 15cm;
     height: 50px;
     width: 50px;
 }
+
+
 .perfil-text{
     font-weight: bold;
     font-size: 20px;
     margin-top: 15px;
     margin-right: 10px;
 }
+
 
 .men{
 padding: 0;
@@ -80,20 +92,18 @@ margin-left: 130px;
 }
 
 
-
-
 table{
     width: 100%;
     margin-top: 45px;
     cursor: pointer;
 }
+
 table th {
     border: 5px solid #ccc;
     padding: 5px;
     cursor: pointer;
 }
+
 td{
     border: 5px solid #ccc;
 }
-
-   
