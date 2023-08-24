@@ -1,2 +1,3 @@
 # Blue-VastExpanding
-trabalho feito em equipe
+https://github.com/Bastouwln/Blue-VastExpanding/tree/main/VastExpanding
+
