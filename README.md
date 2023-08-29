@@ -52,7 +52,7 @@ Para rodar esse projeto, instale: Visual Studio Code ou outro programa da sua pr
 ---
 
 <!-- Explicação da instação ou uso -->
-## Como usar
+## Como usar 
 >
 ><h3 id="rodando-web">
 >🌐 Rodando a aplicação web (frontend).
